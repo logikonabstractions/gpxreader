@@ -1,0 +1,29 @@
+default:
+  consts:
+    PICKLE_DUMPFILE: gpxpoints.pick
+    url: http://localhost:5000/v1/aster30m?
+    ITERATIONS_PER_PRINT: 100     
+    SLIDING_WINDOW_SIZE: 300
+    AVERAGING_WINDOWS_SIZE: 500
+    GPXPOINTSPICKLE: gpxpoints.pick
+    FILEPATH: utcc_113km.gpx
+  # sub progrm. we can run. runs if key is present in confs; 
+  fetchApiData:
+    foo: bar
+  computeMetrics:
+    foo: bar
+  plot:
+    foo: bar
+
+
+fetchApiData:
+  consts:
+    PICKLE_DUMPFILE: gpxpoints.pick
+    url: http://localhost:5000/v1/aster30m?
+    ITERATIONS_PER_PRINT: 100     
+    SLIDING_WINDOW_SIZE: 300
+    AVERAGING_WINDOWS_SIZE: 500
+    GPXPOINTSPICKLE: gpxpoints.pick
+    FILEPATH: utcc_113km.gpx
+  fetchApiData:
+    foo: bar
