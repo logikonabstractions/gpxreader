@@ -14,6 +14,9 @@ url = r'http://localhost:5000/v1/aster30m?'
 SLIDING_WINDOW_SIZE = 300
 AVERAGING_WINDOWS_SIZE = 500
 AVERAGING_WINDOWS_SIZE_ELEVATION = 200
+# FITS_FILEPATH = './strava/data/fits'
+FITS_FILEPATH = './strava/data/tests'
+DILL_FILEPATH = 'strava/data/all_laps.dill'
 
 from matplotlib import pyplot as plt
 
